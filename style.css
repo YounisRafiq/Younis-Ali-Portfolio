@@ -799,13 +799,14 @@ footer{
     width: 200px;
     height: 200px;
     position: relative;
-    top: 2rem;
+    top: 1rem;
   }
   .About{
     margin-top: -4.5rem;
   }
   .About h1{
     font-size: 2.2rem;
+    margin-top: -3rem;
   }
   #element{
     font-size: 1.5rem;
@@ -826,6 +827,23 @@ footer{
     display: flex;
     flex-direction: column;
   }
+  .AboutMe{
+    position: relative;
+    top: -13rem;
+  }
+  .mono{
+    position: relative;
+    top: -13rem;
+  }
+  .head span{
+    width: 160px;
+    height: 8vh !important;
+  }
+  .btn .mine{
+    font-size: 1.1rem !important;
+    width: 200px !important;
+    height: 7vh;
+  }
   .web{
     width: 300px;
     height: 55vh;
@@ -837,6 +855,14 @@ footer{
     width: 300px;
     height: 90vh;
   }
+  .molo{
+    margin-top: -11rem !important;
+  }
+  .web{
+    position: relative;
+    top: -9rem;
+    height: 40vh;
+  }
   .para{
     margin-top: -0.3rem;
     width: 100% !important;
@@ -846,14 +872,35 @@ footer{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     justify-content: center;
+    gap: 0 !important;
     align-items: center;
   }
   .tech-icons i{
     font-size: 2rem;
     margin-top: 1.5rem;
   }
+  .technology{
+    position: relative;
+    top: -15rem;
+  }
+  .techo{
+    position: relative;
+    top: -7rem;
+  }
   .projects{
     width: 100%;
+    position: relative;
+    top: -1rem;
+  }
+  .pio{
+    margin-top: -4rem;
+  }
+  .lets{
+    width: 90% !important;
+    font-size: 1.2rem !important;
+  }
+  footer{
+    height: 39vh;
   }
   .project-item{
     display: flex;
