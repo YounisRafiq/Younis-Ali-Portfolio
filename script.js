@@ -60,7 +60,7 @@ clicked.addEventListener('click', (e) => {
 const para = document.querySelector(".me");
   const fullText = para.innerText;
   const words = fullText.split(" ");
-  const halfText = words.slice(0, 47).join(" ") + "...";
+  const halfText = words.slice(0, 48).join(" ") + ".";
 
   function updateParagraph() {
     if (window.innerWidth <= 768) {
@@ -79,7 +79,7 @@ const para = document.querySelector(".me");
   const para2 = document.querySelector(".ma");
   const fullText2 = para2.innerText;
   const words2 = fullText2.split(" ");
-  const halfText2 = words2.slice(0, 25).join(" ") + "...";
+  const halfText2 = words2.slice(0, 33).join(" ") + ".";
 
   function update() {
     if (window.innerWidth <= 768) {
@@ -94,3 +94,4 @@ const para = document.querySelector(".me");
 
   // Update on resize
   window.addEventListener("resize", update);
+
