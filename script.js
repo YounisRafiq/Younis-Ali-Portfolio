@@ -95,3 +95,35 @@ const para = document.querySelector(".me");
   // Update on resize
   window.addEventListener("resize", update);
 
+  const btn = document.querySelector("#last");
+  const name = document.getElementById('name');
+  const email = document.getElementById('email');
+  const subject = document.getElementById('subject');
+  const number = document.getElementById('number');
+  const sum = name + email + subject + number;    
+  function ShowAlert () {
+      if(!sum.innerText === ""){
+
+     btn.addEventListener("click" , () => {
+      Swal.fire({
+  title: "Success!",
+  text: "Your message sent successfully!",
+  icon: "success"
+  
+});
+    })
+    }
+    }
+  ShowAlert();
+  const form = document.getElementById("id-form").addEventListener("submit" , function (e) {
+    e.preventDefault();
+  })
+ 
+
+
+  
+  
+  
+
+
+
