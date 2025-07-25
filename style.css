@@ -799,6 +799,9 @@ footer{
   .btn .mine{
     margin-left: 2rem;
   }
+  .header a{
+    background: none;
+  }
   .image img{
     width: 200px;
     height: 200px;
