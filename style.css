@@ -6,12 +6,6 @@
 body{
   scroll-behavior: smooth;
 }
-.project-item{
-  overflow: hidden;
-}
-.about{
-  overflow: hidden;
-}
 .header {
   width: 100%;
   height: 12vh;
@@ -809,7 +803,46 @@ footer{
     width: 200px;
     height: 200px;
     position: relative;
-    top: 1rem;
+    top: 0.5rem;
+    left: 1rem;
+  }
+  .About{
+    width: 100%;
+  }
+  .para{
+    text-align: center !important;
+    width: 100% !important;
+    margin-left: 1.5rem;
+  }
+  .sign-2{
+    margin-top: 0.1rem;
+    height: 35px;
+  }
+  .btn{
+    margin-left: 4rem !important;
+  }
+  .links{
+    margin-left: 2rem;
+  }
+  .head{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .head span{
+    width: 60% !important;
+    text-align: center;
+  }
+  .head .lets{
+    width: 80% !important;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .AboutMe{
+    position: relative;
+    left: 1.46rem;
   }
   .About{
     margin-top: -4.5rem;
@@ -817,11 +850,13 @@ footer{
   .About h1{
     font-size: 2.2rem;
     margin-top: -3rem;
+    margin-left: 2rem !important;
   }
   #element{
     font-size: 1.5rem;
     position: relative;
     top: 0.5rem;
+    left: 1.2rem;
   }
   .btn {
     display: flex !important;
@@ -843,17 +878,40 @@ footer{
   }
   .mono{
     position: relative;
-    top: -13rem;
+    top: -11rem;
+  }
+  .head{
+    position: relative;
+    left: 0.7rem;
   }
   .head span{
-    width: 160px;
+    width: 200px !important;
     height: 8vh !important;
   }
   .btn .mine{
     font-size: 1.1rem !important;
     width: 200px !important;
     height: 7vh;
+    margin-left: -2.5rem !important;
   }
+  .text-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+   .me{
+    width: 100% !important;
+    text-align: center !important;
+    position: relative;
+    right: 18px;
+  }
+ .photo img{
+  position: relative;
+  right: 0.4rem;
+ }
+  
   .web{
     width: 300px;
     height: 55vh;
@@ -866,12 +924,17 @@ footer{
     height: 90vh;
   }
   .molo{
-    margin-top: -11rem !important;
+    margin-top: -19rem !important;
   }
   .web{
+    width: 90%;
     position: relative;
-    top: -9rem;
+    top: -8rem;
     height: 40vh;
+    left: 0.4rem;
+  }
+  .technology{
+    width: 90%;
   }
   .para{
     margin-top: -0.3rem;
@@ -892,8 +955,10 @@ footer{
   .technology{
     position: relative;
     top: -15rem;
+    left: 0.7rem;
   }
-  .techo{
+  .head .techo{
+    width: 230px !important;
     position: relative;
     top: -7rem;
   }
@@ -901,6 +966,10 @@ footer{
     width: 100%;
     position: relative;
     top: -1rem;
+  }
+  .project-item{
+    position: relative;
+    left: 0.7rem;
   }
   .pio{
     margin-top: -4rem;
@@ -912,6 +981,10 @@ footer{
   footer{
     height: 39vh;
   }
+  .input-field , .second-input , .textatrea-field {
+    position: relative;
+    left: 0.6rem;
+  }
   .project-item{
     display: flex;
     flex-direction: column;
@@ -920,6 +993,10 @@ footer{
     width: 300px;
     height: 300px;
     margin: 0 auto;
+  }
+  #last{
+    position: relative;
+    right: 1.5rem !important;
   }
   .input-field{
     width: 100%;
@@ -1005,12 +1082,33 @@ footer{
     position: relative;
     top: -3rem;
   }
+  .About .para{
+    width: 95%;
+  }
+  .web{
+    width: 93%;
+  }
+  .me{
+    position: relative;
+    left: 1rem;
+  }
+  .mine{
+    margin-left: 1.8rem;
+  }
   .tech-icons{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     justify-content: center;
     gap: 0 !important;
+    align-items: center;
+  }
+  .technology{
+    width: 93%;
+  }
+  .lets{
+    height: 8vh;
+    display: flex;
     align-items: center;
   }
   .input-field{
@@ -1054,6 +1152,9 @@ footer{
 @media(min-width: 769px) and (max-width: 995px){
   .image img{
     margin-top: -11rem;
+  }
+  .me{
+    margin-left: 3.2rem !important;
   }
   .about{
     margin-top: -10rem;
