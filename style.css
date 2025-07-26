@@ -967,6 +967,15 @@ footer{
     position: relative;
     top: -7rem;
   }
+  .head .mono{
+    position: relative;
+    right: 0.3rem;
+    width: 180px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-size: 1.6rem !important;
+  }
   .projects{
     width: 100%;
     position: relative;
