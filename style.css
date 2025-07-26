@@ -969,12 +969,13 @@ footer{
   }
   .head .mono{
     position: relative;
-    right: 0.3rem;
+    right: 0.4rem;
     width: 180px !important;
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
     font-size: 1.6rem !important;
+    text-align: center !important;
   }
   .projects{
     width: 100%;
