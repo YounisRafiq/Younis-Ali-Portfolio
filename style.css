@@ -866,6 +866,9 @@ footer{
     align-items: center !important;
     justify-content: center !important;
   }
+  .color::placeholder{
+    color: red;
+  }
   #element{
     font-size: 1.5rem;
     position: relative;
