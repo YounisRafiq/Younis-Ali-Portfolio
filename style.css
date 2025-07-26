@@ -875,6 +875,9 @@ footer{
     top: 0.5rem;
     left: 0.5rem;
   }
+  .last{
+
+  }
   .btn {
     display: flex !important;
     flex-direction: row;
@@ -1023,7 +1026,7 @@ footer{
   }
   #last{
     position: relative;
-    right: 1.5rem !important;
+    right: 1.1rem !important;
   }
   .input-field{
     width: 100%;
