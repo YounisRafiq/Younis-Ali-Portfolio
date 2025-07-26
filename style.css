@@ -859,7 +859,12 @@ footer{
   }
   .icon-2{
     position: relative;
-    right: 0.5rem;
+    right: 0.8rem;
+  }
+  .icon-2{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
   }
   #element{
     font-size: 1.5rem;
