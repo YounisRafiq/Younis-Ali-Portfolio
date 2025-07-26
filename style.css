@@ -875,9 +875,6 @@ footer{
     top: 0.5rem;
     left: 0.5rem;
   }
-  .last{
-
-  }
   .btn {
     display: flex !important;
     flex-direction: row;
@@ -886,6 +883,11 @@ footer{
     width: 120px !important;
     padding: 0.2rem;
     font-size: 0.8rem;
+  }
+  .head span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .skill{
     width: 100%;
