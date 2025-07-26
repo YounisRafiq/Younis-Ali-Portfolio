@@ -910,11 +910,11 @@ footer{
     width: 100% !important;
     text-align: center !important;
     position: relative;
-    right: 18px;
+    right: 20px;
   }
  .photo img{
   position: relative;
-  right: 0.4rem;
+  right: 0.7rem;
  }
   
   .web{
