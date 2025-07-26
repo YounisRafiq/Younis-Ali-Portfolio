@@ -857,6 +857,10 @@ footer{
     position: relative;
     top: 0.4rem;
   }
+  .icon-2{
+    position: relative;
+    right: 0.5rem;
+  }
   #element{
     font-size: 1.5rem;
     position: relative;
